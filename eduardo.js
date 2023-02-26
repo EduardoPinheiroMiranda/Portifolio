@@ -1,28 +1,28 @@
-const destaques = document.querySelectorAll(".destaque")
-const openDestaque = document.querySelectorall(".caps")
+const opem = document.querySelector(".perfil")
+const destaques =  document.querySelectorAll(".destaques")
+const main = document.querySelector(".main")
 
-destaques[0].onclick = () => {
-    openDestaque[0].setAttribute("style", "width:100px")
+let on_off = false
+
+opem.onclick = () => {
+
+    if(on_off == false){
+        for(let i=0;i<destaques.length; i++){
+            destaques[i].classList.add("destaques_active")
+        }
+        main.classList.add("main_active") 
+        on_off = true
+    }else{
+        for(let i=0;i<destaques.length; i++){
+            destaques[i].classList.remove("destaques_active") 
+        }
+        main.classList.remove("main_active")
+        on_off = false
+    }
+
+
+
+
 }
-destaques[1].onclick = () => {
-    alert('oi')
-}
-destaques[2].onclick = () => {
-    alert('oi')
-}
-destaques[3].onclick = () => {
-    alert('oi')
-}
-destaques[4].onclick = () => {
-    alert('oi')
-}
-destaques[5].onclick = () => {
-    alert('oi')
-}
-destaques[6].onclick = () => {
-    alert('oi')
-}
-destaques[7].onclick = () => {
-    alert('oi')
-}
+
 
