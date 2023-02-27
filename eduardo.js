@@ -3,9 +3,9 @@ const destaques =  document.querySelectorAll(".destaques")
 const main = document.querySelector(".main")
 
 const exibirContent = document.querySelectorAll(".content")
-const opemModal = document.querySelector("dialog")
-const closeModal = document.querySelector(".close")
-
+const opemInfo = document.querySelector(".opemInfo")
+const modalOpem = document.querySelector("dialog")
+const modalClose = document.querySelector(".Close")
 
 let on_off = false
 
@@ -30,10 +30,10 @@ opem.onclick = () => {
     } 
 }
 
-exibirContent[0].onclick = () => {
-    opemModal.showModal()
+opemInfo.onclick = () => {
+    modalOpem.showModal()
 }
 
-closeModal.onclick = () => {
-    opemModal.close()
+modalClose.onclick = () => {
+    modalOpem.close()
 }
