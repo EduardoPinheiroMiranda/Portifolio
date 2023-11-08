@@ -15,10 +15,17 @@ export const Container = Styled.div`
     justify-content: space-between;
 
     >div{
+        color: ${({ theme }) => theme.colors.colorText};
 
-        h1{
-            color: ${({ theme }) => theme.colors.colorText};
-            font-size: 2.4rem;
+        font-size: 2.4rem;
+        font-weight: 900;
+
+        display: flex;
+        align-items: center;
+
+        span{
+            margin-left: 1rem;
+            margin: 0 1rem;
         }
     }
 

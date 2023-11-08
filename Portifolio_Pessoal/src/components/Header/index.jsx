@@ -1,17 +1,15 @@
 import { Container, Navegation } from "./style"
-import { TbChevronRight, TbSlash, TbChevronLeft} from "react-icons/tb"
-export function Header(){
+import { FaChevronLeft, FaChevronRight} from "react-icons/fa"
+import { RxSlash } from "react-icons/rx"
+export function Header({...rest}){
 
     return(
-        <Container>
+        <Container {...rest}>
             <div>
-                <h1>
-                    <TbChevronLeft/>
-                    Eduardo Pinheiro Miranda
-                    <TbSlash/>
-                    <TbChevronRight/> 
-                   
-                </h1>
+                <FaChevronLeft/>
+                <span>Eduardo Pinheiro Miranda</span>
+                <RxSlash/>
+                <FaChevronRight/> 
             </div>
             <Navegation>
                 <ul>Home</ul>
