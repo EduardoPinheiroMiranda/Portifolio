@@ -12,4 +12,8 @@ export default createGlobalStyle`
         font-size: 62.5%;
         
     }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
 `

@@ -1,9 +1,11 @@
-import { Container, Page, Description, SocialMedia, Tecnologi, Section} from "./style"
+import { Container, Page, Description, SocialMedia, Tecnologi, SectionSkill} from "./style"
 
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { FaReact, FaGitAlt, FaNodeJs} from "react-icons/fa"
 
 import { Header } from "../../components/Header"
+import { CardSkill } from "../../components/CardSkill"
+import { skills } from "./SkillTeconoligi"
 
 export function Home(){
 
@@ -39,9 +41,29 @@ export function Home(){
                         <FaReact/>
                     </Tecnologi>
 
-                    <Section>
+                    <SectionSkill>
                         <span>Tecnologisas</span>
-                    </Section>
+
+                        <div>
+                            {
+                                skills.map((skill) => {
+                                    return(
+                                        <CardSkill
+                                            key={skill.id}
+                                            title={skill.name}
+                                            desc={skill.desc}
+                                            skillsvg={skill.svg}
+                                        />
+                                    )
+                                })
+                            }
+                        </div>
+                        
+                        
+                        
+                          
+                        
+                    </SectionSkill>
 
 
                 </main>

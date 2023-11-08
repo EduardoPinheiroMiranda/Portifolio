@@ -117,7 +117,7 @@ export const Tecnologi = Styled.div`
 
     svg:nth-child(2){
         position: absolute;
-        bottom: 1rem;
+        top: 35rem;
         left: 77rem;
         z-index: 1;
     }
@@ -130,6 +130,27 @@ export const Tecnologi = Styled.div`
     }
 `
 
-export const Section = Styled.div`
+export const SectionSkill = Styled.div`
+    margin-top: 30rem;
 
+    >span{
+        color: ${({ theme }) => theme.colors.colorText};
+
+        font-size: 4rem;
+        font-weight: 800;
+
+        margin-bottom: 6.5rem;
+    }
+
+    >div{
+        
+        min-width: 29rem;
+        width: 100%;
+
+        padding: 2rem;
+
+        display: flex;
+        gap: 3rem;
+        overflow-x: auto;
+    }
 `

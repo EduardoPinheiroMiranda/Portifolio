@@ -2,6 +2,7 @@ export default {
     colors:{
         background: "#262626",
         backgroundHeader: "#0A0A0A",
+        backgroundCard: "#313131",
 
         colorGithub: "#171515",
         colorLinkedin: "#0E76A8",
