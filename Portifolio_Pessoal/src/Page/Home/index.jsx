@@ -1,15 +1,12 @@
 import { 
     Container, Page, Description, 
     SocialMedia, Tecnologi,
-
 } from "./style"
 
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { FaReact, FaGitAlt, FaNodeJs} from "react-icons/fa"
 
 import { Header } from "../../components/Header"
-import { SectionSkills } from "./SectionSkills"
-import { SectionProject } from "./SectionProject/inde"
 
 export function Home(){
 
@@ -46,9 +43,7 @@ export function Home(){
                     </Tecnologi>
 
                     
-                    <SectionSkills/>
-
-                    <SectionProject/>
+                    
 
                 </main>
             </Page>

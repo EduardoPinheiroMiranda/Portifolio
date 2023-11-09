@@ -3,8 +3,8 @@ import Styled from "styled-components"
 export const Container = Styled.div`
     background-color: ${({ theme }) => theme.colors.background}; 
 
-    max-width: 100%;
-    height: 476.5rem;
+    min-width: 36rem;
+    width: 100%;
 
     
     .margin{

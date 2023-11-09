@@ -7,7 +7,7 @@ export const Container = Styled.div`
     width: 100%;
     height: 10rem;
 
-    padding: 0 3.5rem;
+    padding: 0 3rem;
 
     border-radius: 0 0 2rem 2rem;
 
@@ -16,32 +16,28 @@ export const Container = Styled.div`
     justify-content: space-between;
 
     >div{
-        color: ${({ theme }) => theme.colors.colorText};
-
-        font-size: 2.4rem;
-        font-weight: 900;
+        width: 100%;
 
         display: flex;
-        align-items: center;
+        justify-content: space-between;
 
-        span{
-            margin-left: 1rem;
-            margin: 0 1rem;
+        div{
+            color: ${({ theme }) => theme.colors.colorText};
+
+            font-size: 1.6rem;
+            font-weight: 900;
+
+            display: grid;
+            align-items: center;
         }
+        
+        svg{
+            color: ${({ theme }) => theme.colors.colorText};
+
+            width: 2rem;
+            height: 2rem;
+        }
+        
     }
 
-`
-
-export const Navegation = Styled.ul`
-    width: 37rem;
-
-    display: flex;
-    justify-content: space-between;
-
-    ul{
-        font-size: 1.6rem;
-        font-weight: 900;
-        color: ${({ theme }) => theme.colors.colorText};
-        cursor: pointer;
-    }
 `

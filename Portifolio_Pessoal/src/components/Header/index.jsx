@@ -1,22 +1,18 @@
 import { Container, Navegation } from "./style"
-import { FaChevronLeft, FaChevronRight} from "react-icons/fa"
-import { RxSlash } from "react-icons/rx"
+import { BsList } from "react-icons/bs"
+
+
 export function Header({...rest}){
 
     return(
         <Container {...rest}>
             <div>
-                <FaChevronLeft/>
-                <span>Eduardo Pinheiro Miranda</span>
-                <RxSlash/>
-                <FaChevronRight/> 
+                <div>
+                    <span>Eduardo</span>
+                    <span>Pinheiro Miranda</span>
+                </div>
+                <BsList/>
             </div>
-            <Navegation>
-                <ul>Home</ul>
-                <ul>Skill</ul>
-                <ul>Projetos</ul>
-                <ul>Contatos</ul>
-            </Navegation>
         </Container>
     )
 }
