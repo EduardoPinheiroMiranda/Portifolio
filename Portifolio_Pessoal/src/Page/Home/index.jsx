@@ -1,11 +1,15 @@
-import { Container, Page, Description, SocialMedia, Tecnologi, SectionSkill} from "./style"
+import { 
+    Container, Page, Description, 
+    SocialMedia, Tecnologi,
+
+} from "./style"
 
 import { BsGithub, BsLinkedin } from "react-icons/bs"
 import { FaReact, FaGitAlt, FaNodeJs} from "react-icons/fa"
 
 import { Header } from "../../components/Header"
-import { CardSkill } from "../../components/CardSkill"
-import { skills } from "./SkillTeconoligi"
+import { SectionSkills } from "./SectionSkills"
+import { SectionProject } from "./SectionProject/inde"
 
 export function Home(){
 
@@ -19,8 +23,8 @@ export function Home(){
                         <h1>Hello world !</h1>
                         <p>
                             Meu nome é Eduardo, desenvolvedor Full Stack que aprecia as 
-                            tecnologias webs. Costumo utilizar <span>JavaScript</span>, <span>HTML</span>, 
-                            <span>CSS</span>, <span>React</span> para dar vida a minha imaginação.
+                            tecnologias webs e costumo utilizar <strong>JavaScript</strong>, <strong>HTML</strong>, 
+                            <strong> CSS</strong> e <strong>React</strong> para dar vida a minha imaginação.
                         </p>
                     </Description>
 
@@ -41,30 +45,10 @@ export function Home(){
                         <FaReact/>
                     </Tecnologi>
 
-                    <SectionSkill>
-                        <span>Tecnologisas</span>
+                    
+                    <SectionSkills/>
 
-                        <div>
-                            {
-                                skills.map((skill) => {
-                                    return(
-                                        <CardSkill
-                                            key={skill.id}
-                                            title={skill.name}
-                                            desc={skill.desc}
-                                            skillsvg={skill.svg}
-                                        />
-                                    )
-                                })
-                            }
-                        </div>
-                        
-                        
-                        
-                          
-                        
-                    </SectionSkill>
-
+                    <SectionProject/>
 
                 </main>
             </Page>

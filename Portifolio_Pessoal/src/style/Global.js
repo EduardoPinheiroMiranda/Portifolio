@@ -16,4 +16,5 @@ export default createGlobalStyle`
     ::-webkit-scrollbar{
         display: none;
     }
+
 `

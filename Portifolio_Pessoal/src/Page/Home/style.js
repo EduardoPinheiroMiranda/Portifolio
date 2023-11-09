@@ -46,7 +46,7 @@ export const Description = Styled.div`
 
     p{
         font-size: 3rem;
-        font-weight: 600;
+        font-weight: 400;
 
         width: 40rem;
     }
@@ -111,46 +111,23 @@ export const Tecnologi = Styled.div`
     svg:nth-child(1){
         position: absolute;
         top: -2.5rem;
-        left: 124rem;
+        right: 12rem;
         z-index: 1;
     }
 
     svg:nth-child(2){
         position: absolute;
         top: 35rem;
-        left: 77rem;
+        right: 60rem;
         z-index: 1;
     }
 
     svg:nth-child(3){
         position: absolute;
         top: 5rem;
-        left: 87rem;
+        right: 50rem;
         z-index: 1;
     }
 `
 
-export const SectionSkill = Styled.div`
-    margin-top: 30rem;
 
-    >span{
-        color: ${({ theme }) => theme.colors.colorText};
-
-        font-size: 4rem;
-        font-weight: 800;
-
-        margin-bottom: 6.5rem;
-    }
-
-    >div{
-        
-        min-width: 29rem;
-        width: 100%;
-
-        padding: 2rem;
-
-        display: flex;
-        gap: 3rem;
-        overflow-x: auto;
-    }
-`
