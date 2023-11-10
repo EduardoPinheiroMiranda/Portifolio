@@ -1,4 +1,4 @@
-import { Container, Navegation } from "./style"
+import { Container } from "./style"
 import { BsList } from "react-icons/bs"
 
 
