@@ -37,7 +37,8 @@ export const Container = Styled.div`
 
             >div{
                 
-                width: 29rem;
+                min-width: 29rem;
+                width: 100%;
                 
 
                 padding: 2rem;
