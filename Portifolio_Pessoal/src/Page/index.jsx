@@ -1,4 +1,5 @@
 import {  Container } from "./style"
+import { BsArrowUp } from "react-icons/bs"
 
 import { Header } from "../components/Header"
 import { About } from "./About"
@@ -14,7 +15,12 @@ export function Home(){
                 <About/>
                 <Skills/>
                 <Projects/>
+
+                <div className=" toTop">
+                    <BsArrowUp/>
+                </div>
             </main>
+            
         </Container>
     )
 }
