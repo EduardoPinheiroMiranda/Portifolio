@@ -1,4 +1,5 @@
 import { Container, Tecnologi } from "./style"
+import { BiSolidChevronDown } from "react-icons/bi"
 
 export function CardProject({title, src, alt, desc, tecnologi, repo, site}){
     return(
@@ -14,6 +15,7 @@ export function CardProject({title, src, alt, desc, tecnologi, repo, site}){
                     <div className="tecnologi">
                         {tecnologi}
                     </div>
+                    <BiSolidChevronDown/> 
                 </div>
             </Tecnologi>
 

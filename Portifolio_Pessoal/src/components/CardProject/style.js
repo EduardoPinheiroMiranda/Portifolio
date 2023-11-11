@@ -93,9 +93,18 @@ export const Tecnologi = Styled.div`
     >div{
         padding: 2rem 0;
 
-        display: flex;
+        display: grid;
         justify-content: center;
         align-items: center;
+
+        >svg{
+            color: ${({ theme }) => theme.colors.backgroundHeader};
+
+            width: 1.5rem;
+            height: 1.5rem;
+
+            margin: 0 auto;
+        }
 
         .tecnologi{
             width: 100%;
