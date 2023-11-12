@@ -20,9 +20,9 @@ export function Home(){
                 <Certificates/>
                 <Footer/>
 
-                {/* <div className="hide toTop">
+                <div className=" toTop">
                     <BsArrowUp/>
-                </div> */}
+                </div>
             </main>
             
         </Container>

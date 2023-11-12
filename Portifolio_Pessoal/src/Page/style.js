@@ -8,8 +8,6 @@ export const Container = Styled.div`
     width: 100%;
     height: 100vh;
 
-    margin-bottom: 10rem;
-
     main{
         height: calc(100vh - 10rem);
         overflow-y: auto;

@@ -4,11 +4,14 @@ import { BiSolidChevronDown } from "react-icons/bi"
 export function CardProject({title, src, alt, desc, tecnologi, repo, site}){
     return(
         <Container>
-            <img src={src} alt={alt} />
-            <span>{title}</span>
-            <p>
-                {desc}
-            </p>
+            <div>
+                <img src={src} alt={alt} />
+                <span>{title}</span>
+                <p>
+                    {desc}
+                </p>
+            </div>
+            
             <Tecnologi >
                 <span>Principais Tecnologias</span>
                 <div>

@@ -13,39 +13,43 @@ export const Container = Styled.div`
 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
+    >div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-    >img{
-        width: 20rem;
-        height: 10rem;
+        >img{
+            width: 20rem;
+            height: 10rem;
+        }
 
-        margin-bottom: 2rem;
+        >span{
+            color: ${({ theme }) => theme.colors.colorText};
+            
+            font-size: 1.6rem;
+            font-weight: 600;
+            text-align: center;
 
+            margin-bottom: 2rem;
+
+            display: block;
+        }
+
+        >p{
+            color: ${({ theme }) => theme.colors.colorText};
+            
+            font-size: 1.6rem;
+            font-weight: 400;
+            text-align: justify;
+
+            height: 16rem;
+            overflow-y: auto;
+            
+            margin-bottom: 3.5rem;
+        }
     }
-
-    >span{
-        color: ${({ theme }) => theme.colors.colorText};
-        
-        font-size: 1.6rem;
-        font-weight: 600;
-        text-align: center;
-
-        margin-bottom: 2rem;
-
-        display: block;
-    }
-
-    >p{
-        color: ${({ theme }) => theme.colors.colorText};
-        
-        font-size: 1.6rem;
-        font-weight: 400;
-        text-align: justify;
-
-        height: 16rem;
-        overflow-y: auto;
-        
-        margin-bottom: 3.5rem;
-    }
+    
 
     .controlls{
         width: 100%;
@@ -78,8 +82,6 @@ export const Container = Styled.div`
 `
 
 export const Tecnologi = Styled.div`
-    width: 100%;
-    height: 10rem;
 
     >span{
         color: ${({ theme }) => theme.colors.colorText};
@@ -91,40 +93,38 @@ export const Tecnologi = Styled.div`
     }
 
     >div{
-        padding: 2rem 0;
-
-        display: grid;
-        justify-content: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
+
+        .tecnologi{
+
+            min-width: 20rem;
+            width: 100%;
+            height: 5rem;
+
+            display: flex;
+            flex-wrap: wrap;
+            overflow: auto;
+            gap: 0.5rem;
+
+            padding: 0.5rem;
+            
+            div{
+                
+                >svg{
+                    width: 4rem;
+                    height: 4rem;
+                    border-radius: 0.5rem;
+                }
+            }
+        }
 
         >svg{
             color: ${({ theme }) => theme.colors.background};
 
             width: 2rem;
             height: 2rem;
-
-            margin: 0 auto;
-        }
-
-        .tecnologi{
-            display: flex;
-            flex-wrap: wrap;
-            overflow-y: auto;
-            width: 100%;
-            height: 5rem;
-
-            div{
-                
-
-                >svg{
-                width: 4rem;
-                height: 4rem;
-                margin: 0.4rem;
-                border-radius: 0.5rem;
-            }
-            }
-
-            
         }
 
         
