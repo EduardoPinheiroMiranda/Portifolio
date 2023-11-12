@@ -98,25 +98,33 @@ export const Tecnologi = Styled.div`
         align-items: center;
 
         >svg{
-            color: ${({ theme }) => theme.colors.backgroundHeader};
+            color: ${({ theme }) => theme.colors.background};
 
-            width: 1.5rem;
-            height: 1.5rem;
+            width: 2rem;
+            height: 2rem;
 
             margin: 0 auto;
         }
 
         .tecnologi{
+            display: flex;
+            flex-wrap: wrap;
+            overflow-y: auto;
             width: 100%;
             height: 5rem;
-            overflow-y: auto;
 
-            >svg{
+            div{
+                
+
+                >svg{
                 width: 4rem;
                 height: 4rem;
                 margin: 0.4rem;
                 border-radius: 0.5rem;
             }
+            }
+
+            
         }
 
         

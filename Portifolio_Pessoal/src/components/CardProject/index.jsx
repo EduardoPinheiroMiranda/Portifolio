@@ -13,7 +13,15 @@ export function CardProject({title, src, alt, desc, tecnologi, repo, site}){
                 <span>Principais Tecnologias</span>
                 <div>
                     <div className="tecnologi">
-                        {tecnologi}
+                        {
+                            tecnologi.map( (tec) => {
+                                return(
+                                    <div key={tec.id}>
+                                        {tec.svg}
+                                    </div>
+                                )
+                            })
+                        }
                     </div>
                     <BiSolidChevronDown/> 
                 </div>

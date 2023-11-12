@@ -5,6 +5,8 @@ import { Header } from "../components/Header"
 import { About } from "./About"
 import { Skills } from "./Skills"
 import { Projects } from "./Projects"
+import { Certificates } from "./Certificates"
+import { Footer } from "./Footer"
 
 export function Home(){
 
@@ -15,10 +17,12 @@ export function Home(){
                 <About/>
                 <Skills/>
                 <Projects/>
+                <Certificates/>
+                <Footer/>
 
-                <div className=" toTop">
+                {/* <div className="hide toTop">
                     <BsArrowUp/>
-                </div>
+                </div> */}
             </main>
             
         </Container>

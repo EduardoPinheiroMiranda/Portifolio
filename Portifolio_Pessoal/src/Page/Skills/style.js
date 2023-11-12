@@ -2,11 +2,7 @@ import Styled from "styled-components"
 
 export const Container = Styled.div`
     
-    height: calc(100vh - 10rem);
-
-    margin-top: 30rem;
-
-    
+    margin: 30rem 0 10rem 0;
 
     >div{
         margin: 0 auto;
@@ -17,7 +13,7 @@ export const Container = Styled.div`
             font-weight: 800;
 
             display: block;
-            margin: 2rem 3rem 8rem 3rem;
+            margin: 2rem 3rem;
         }
 
         >.card{

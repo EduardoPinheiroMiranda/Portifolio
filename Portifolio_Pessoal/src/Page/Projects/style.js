@@ -2,9 +2,7 @@ import Styled from "styled-components"
 
 export const Container = Styled.div`
 
-
-    height: calc(100vh - 10rem);
-
+    margin-bottom: 10rem;
 
     >span{
         color: ${({ theme }) => theme.colors.colorText};
@@ -13,7 +11,7 @@ export const Container = Styled.div`
         font-weight: 600;
 
         display: block;
-        margin: 2rem 3rem;
+        margin: 2rem 3rem ;
 
     }
 
