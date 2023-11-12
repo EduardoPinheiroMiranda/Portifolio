@@ -1,8 +1,9 @@
 import Styled from "styled-components"
 
-export const Container = Styled.div`
+export const Container = Styled.section`
     
     margin: 30rem 0 10rem 0;
+    opacity: 0;
 
     >div{
         margin: 0 auto;

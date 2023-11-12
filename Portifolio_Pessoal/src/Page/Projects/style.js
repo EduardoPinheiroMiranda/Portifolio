@@ -1,8 +1,9 @@
 import Styled from "styled-components"
 
-export const Container = Styled.div`
+export const Container = Styled.section`
 
     margin-bottom: 10rem;
+    opacity: 0;
 
     >span{
         color: ${({ theme }) => theme.colors.colorText};

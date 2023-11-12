@@ -6,7 +6,7 @@ import { FaReact, FaGitAlt, FaNodeJs} from "react-icons/fa"
 export function About(){
 
     return(
-        <Container>
+        <Container id="about">
             
             <Description>
                 <h1>Hello world !</h1>

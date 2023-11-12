@@ -9,11 +9,14 @@ export const Container = Styled.div`
 
     padding: 0 3rem;
 
-    border-radius: 0 0 2rem 2rem;
+    
 
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    
 
     >div{
         width: 100%;
@@ -36,6 +39,14 @@ export const Container = Styled.div`
 
             width: 2rem;
             height: 2rem;
+
+            cursor: pointer;
+
+            transition: all 500ms;
+        }
+
+        .rotate{
+            transform: rotate(90deg);
         }
         
     }

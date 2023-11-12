@@ -6,6 +6,9 @@ export default createGlobalStyle`
         margin: 0;
         box-sizing: border-box;
         font-family: 'Roboto', sans-serif;
+
+        scroll-padding-top: 100px;
+        scroll-behavior: smooth;
     }
 
     :root{
@@ -13,8 +16,31 @@ export default createGlobalStyle`
         
     }
 
+
     ::-webkit-scrollbar{
         display: none;
+    }
+
+    @keyframes menu{
+        0%{
+            transform: translateX(11rem);
+            opacity: 0;
+        }
+
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes element {
+        0%{
+            transform: translateX(-36rem);
+        }
+        100%{
+            transform: translateX(0);
+            opacity: 1;
+        }
     }
 
 `

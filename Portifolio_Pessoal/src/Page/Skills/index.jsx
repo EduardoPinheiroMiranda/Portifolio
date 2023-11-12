@@ -7,7 +7,7 @@ import { Skills as skills } from "./Skills"
 export function Skills({...rest}){
 
     return(
-        <Container {...rest}>
+        <Container id="skills" className="showElement" {...rest}>
             <div>
                 <span>Tecnologisas</span>
 

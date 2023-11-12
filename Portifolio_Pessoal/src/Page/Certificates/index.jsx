@@ -5,7 +5,7 @@ import { BiSolidChevronLeft, BiSolidChevronRight} from "react-icons/bi"
 export function Certificates(){
 
     return(
-        <Container>
+        <Container id="certifications" className="showElement">
             <span>Formações</span>
             <div>
                 <BiSolidChevronLeft/>

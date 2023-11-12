@@ -6,7 +6,7 @@ import { Projects as projects} from "./Projects"
 
 export function Projects(){
     return(
-        <Container>
+        <Container id="projects" className="showElement">
             <span>Projetos</span>
             <div className="cards">
 

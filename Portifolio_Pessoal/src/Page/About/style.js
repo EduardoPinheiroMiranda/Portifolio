@@ -1,8 +1,11 @@
 import Styled from "styled-components"
 
-export const Container = Styled.div`
+export const Container = Styled.section`
     position: relative;
     margin: 0 3rem;
+
+    animation-name: element;
+    animation-duration: 1000ms;
 `
 export const Description = Styled.div`
 

@@ -3,23 +3,20 @@ import Styled from "styled-components"
 export const Container = Styled.div`
     background-color: ${({ theme }) => theme.colors.background}; 
 
-    
     min-width: 36rem;
     width: 100%;
     height: 100vh;
 
-    main{
+    >main{
         height: calc(100vh - 10rem);
         overflow-y: auto;
 
         margin: 0 auto;
-        position: relative;
 
         .toTop{
             
             background-color: ${({ theme }) => theme.colors.backgroundHeader};
-            color: ${({ theme }) => theme.colors.colorText};
-
+            
             width: 3rem;
             height: 3rem;
 
@@ -32,14 +29,31 @@ export const Container = Styled.div`
             display: grid;
             place-items: center;
 
-            svg{
-                width: 2rem;
-                height: 2rem;
+            a{
+                text-decoration: none;
+                color: ${({ theme }) => theme.colors.colorText};
+
+
+                svg{
+                    width: 2rem;
+                    height: 2rem;
+                }
             }
         }
 
         .hide{
             display: none;
         }
+
+        .show{
+            animation-name: element;
+            animation-duration: 1000ms;
+            animation-fill-mode: forwards;
+        }
     }
+
+    >.hide{
+        display: none;
+    }
+
 `
