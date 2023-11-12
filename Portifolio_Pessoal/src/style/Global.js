@@ -21,6 +21,31 @@ export default createGlobalStyle`
         display: none;
     }
 
+    @keyframes floteTop {
+        0%{
+            transform: translateY(-10px)
+        }
+        50%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(-10px)
+        }
+
+    }
+
+    @keyframes floteDown {
+        0%{
+            transform: translateY(10px)
+        }
+        50%{
+            transform: translateY(0);
+        }
+        100%{
+            transform: translateY(10px)
+        }
+    }
+
     @keyframes menu{
         0%{
             transform: translateX(11rem);

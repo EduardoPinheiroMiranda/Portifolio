@@ -21,11 +21,8 @@ export function Home(){
             
         })
         
-        
-        
         const elements = document.querySelectorAll(".showElement")
-        elements.forEach((item) => intersectObserver.observe(item))
-        
+        elements.forEach((item) => intersectObserver.observe(item)) 
     }
 
 

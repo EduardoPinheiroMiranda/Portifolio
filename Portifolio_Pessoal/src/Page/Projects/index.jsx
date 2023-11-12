@@ -5,13 +5,37 @@ import { CardProject } from "../../components/CardProject"
 import { Projects as projects} from "./Projects"
 
 export function Projects(){
+
+    const maxWidth = (280*projects.length) - 280
+    let localScroll = 0 //local inicial da rolagem de barra
+
+    function next(){
+        const showcase = document.querySelector(".showcaseProjects")
+        
+        if(localScroll >= 0 && localScroll < maxWidth){
+            
+            localScroll += 280 
+            showcase.scroll(localScroll,0)
+        }
+    }
+
+    function back(){
+        const showcase = document.querySelector(".showcaseProjects")
+
+        if(localScroll > 0){
+            localScroll -= 280
+            showcase.scroll(localScroll,0)
+        }
+        
+    }
+
     return(
         <Container id="projects" className="showElement">
             <span>Projetos</span>
             <div className="cards">
 
-                <BiSolidChevronLeft/>
-                <div>
+                <BiSolidChevronLeft onClick={back}/>
+                <div className="showcaseProjects">
                     {
                         projects.map((project) => {
 
@@ -31,7 +55,7 @@ export function Projects(){
                         })
                     }
                 </div>
-                <BiSolidChevronRight/>
+                <BiSolidChevronRight onClick={next}/>
             </div>
         </Container>
     )

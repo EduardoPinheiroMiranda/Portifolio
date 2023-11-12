@@ -49,20 +49,26 @@ export const SocialMedia = Styled.div`
             transition: all 500ms;
         }
         
-        .github{   
+        .github{
+            color: ${({ theme }) => theme.colors.colorIcon};
+            border-radius: 50%;
+        }
+
+        .github:hover{
             background-color: ${({ theme }) => theme.colors.colorText};
             color: ${({ theme }) => theme.colors.colorGithub};
-            border-radius: 50%;
-
-            box-shadow: 0px 0.5px 5px 0.1px ${({ theme }) => theme.colors.colorText};
+            box-shadow: 0 0 1rem 0 ${({ theme }) => theme.colors.colorText};
         }
 
         .linkedin{
+            color: ${({ theme }) => theme.colors.colorIcon};
+            border-radius: 0.5rem;
+        }
+
+        .linkedin:hover{
             background-color: ${({ theme }) => theme.colors.colorText};
             color: ${({ theme }) => theme.colors.colorLinkedin};
-            border-radius: 0.5rem;
-
-            box-shadow: 0px 0.5px 5px 0.1px ${({ theme }) => theme.colors.colorText}; */
+            box-shadow: 0 0 1rem 0 ${({ theme }) => theme.colors.colorText}; */
         }
 
     }
@@ -74,6 +80,8 @@ export const Tecnologi = Styled.div`
         color: ${({ theme }) =>  theme.colors.colorIcon};
         width: 5rem;
         height: 5rem;
+        transition: all 500ms;
+        
     }
 
     svg:nth-child(1){
@@ -81,13 +89,26 @@ export const Tecnologi = Styled.div`
         top: -2rem;
         right: 3rem;
         z-index: 1;
+
+        animation: floteTop 5s linear infinite;
     }
+
+    svg:nth-child(1):hover{
+        color: ${({ theme }) => theme.colors.gitHover};
+    }
+
 
     svg:nth-child(2){
         position: absolute;
         top: 70%;
         right: 5rem;
         z-index: 1;
+
+        animation: floteDown 5s linear infinite;
+    }
+
+    svg:nth-child(2):hover{
+        color: ${({ theme }) => theme.colors.nodeHover};
     }
 
     svg:nth-child(3){
@@ -95,6 +116,11 @@ export const Tecnologi = Styled.div`
         top: 30%;
         right: 8rem;
         z-index: 1;
+        animation: floteTop 5s linear infinite;
+    }
+
+    svg:nth-child(3):hover{
+        color: ${({ theme }) => theme.colors.reactHover};
     }
 `
 
