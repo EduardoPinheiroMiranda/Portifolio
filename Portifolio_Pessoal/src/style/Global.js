@@ -16,10 +16,11 @@ export default createGlobalStyle`
         
     }
 
-
     ::-webkit-scrollbar{
         display: none;
     }
+
+
 
     @keyframes floteTop {
         0%{

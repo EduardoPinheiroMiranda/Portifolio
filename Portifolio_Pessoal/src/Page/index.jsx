@@ -27,7 +27,7 @@ export function Home(){
 
 
     return(
-        <Container >
+        <Container className="body">
             <Header />
             <Menu/>
             <main onScroll={showElements}>

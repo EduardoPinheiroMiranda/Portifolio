@@ -6,11 +6,18 @@ export const Container = Styled.section`
 
     animation-name: element;
     animation-duration: 1000ms;
+
+    @media(min-width: 450px){
+        h1{
+            font-size: 32px;
+        }
+    }
 `
 export const Description = Styled.div`
 
     color: ${({ theme }) => theme.colors.colorText};
     margin-top: 10rem;
+
 
     h1{
         font-size: 2.4rem;
