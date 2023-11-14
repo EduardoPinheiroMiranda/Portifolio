@@ -4,7 +4,6 @@ export const Container = Styled.section`
     
     max-width: 144rem;
     margin: 30rem auto 10rem;
-    padding: 0 4rem;
     
     opacity: 0;
     transition: all 500ms;

@@ -10,12 +10,9 @@ export const Container = Styled.div`
     >main{
         height: calc(100vh - 10rem);
         overflow-y: auto;
+        width: 100%;
 
         transition: all 500ms;
-
-        
-      
-
 
         .toTop{
             
