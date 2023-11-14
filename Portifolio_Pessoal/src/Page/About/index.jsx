@@ -8,7 +8,7 @@ export function About(){
     return(
         <Container id="about">
             
-            <Description>
+            <Description className="description">
                 <h1>Hello world !</h1>
                 <p>
                     Meu nome é Eduardo, desenvolvedor Full Stack que aprecia as 
@@ -17,7 +17,7 @@ export function About(){
                 </p>
             </Description>
 
-            <SocialMedia>
+            <SocialMedia className="socialMedia">
                 <a href="http://github.com/eduardopinheiromiranda" target="_blank" >
                     <BsGithub className="github"/>
                 </a>
@@ -28,7 +28,7 @@ export function About(){
                 
             </SocialMedia>
 
-            <Tecnologi>
+            <Tecnologi className="tecnologi">
                 <FaGitAlt/>
                 <FaNodeJs/>
                 <FaReact/>

@@ -11,7 +11,11 @@ export const Container = Styled.div`
         height: calc(100vh - 10rem);
         overflow-y: auto;
 
-        margin: 0 auto;
+        transition: all 500ms;
+
+        
+      
+
 
         .toTop{
             
@@ -50,10 +54,14 @@ export const Container = Styled.div`
             animation-duration: 1000ms;
             animation-fill-mode: forwards;
         }
+
+        
     }
 
     >.hide{
         display: none;
     }
+
+    
 
 `

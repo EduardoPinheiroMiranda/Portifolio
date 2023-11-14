@@ -2,8 +2,12 @@ import Styled from "styled-components"
 
 export const Container = Styled.section`
     
-    margin: 30rem 0 10rem 0;
+    max-width: 144rem;
+    margin: 30rem auto 10rem;
+    padding: 0 4rem;
+    
     opacity: 0;
+    transition: all 500ms;
 
     >div{
         margin: 0 auto;
