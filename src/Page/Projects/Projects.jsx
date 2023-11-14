@@ -1,8 +1,8 @@
 export const Projects = [
     {
         id: 1,
-        img:"img/site/rifaOnline.png",
-        alt: "Rifa online",
+        img:"../../src/assets/img/site/rifaOnline.png",
+        alt: "Rifa online teste 1",
         name: "Rifa online",
         desc: `
          A rifa foi pensada para ser uma forma mais fácil 
