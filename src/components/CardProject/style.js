@@ -22,6 +22,7 @@ export const Container = Styled.div`
         >img{
             width: 20rem;
             height: 10rem;
+            border-radius: 1rem;
         }
 
         >span{
@@ -113,7 +114,7 @@ export const Tecnologi = Styled.div`
             
             div{
                 
-                >svg{
+                >img{
                     width: 4rem;
                     height: 4rem;
                     border-radius: 0.5rem;

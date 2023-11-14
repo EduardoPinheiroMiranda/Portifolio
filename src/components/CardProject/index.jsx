@@ -20,7 +20,7 @@ export function CardProject({title, src, alt, desc, tecnologi, repo, site}){
                             tecnologi.map( (tec) => {
                                 return(
                                     <div key={tec.id}>
-                                        {tec.svg}
+                                        <img  src={tec.svg} alt={tec.alt} />
                                     </div>
                                 )
                             })
