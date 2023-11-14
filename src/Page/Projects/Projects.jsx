@@ -1,7 +1,7 @@
 export const Projects = [
     {
         id: 1,
-        img:"../../src/assets/img/site/rifaOnline.png",
+        img:"./../../src/assets/img/site/rifaOnline.png",
         alt: "Rifa online",
         name: "Rifa online",
         desc: `
