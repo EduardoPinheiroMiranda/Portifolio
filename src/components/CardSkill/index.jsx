@@ -5,7 +5,7 @@ export function CardSkill({desc, title, skillsvg, ...rest}){
     return(
         <Contaniner>
             <div >
-                {skillsvg}
+                <img src={skillsvg.src} alt={skillsvg.alt} />
             </div>
             <span>{title}</span>
 
