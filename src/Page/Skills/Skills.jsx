@@ -7,7 +7,7 @@ export const Skills = [
         name: "JavaScript",
         desc: "Faço uso na criação de minhas aplicações para oferecer uma interatividade mais espontânea aos usuários. Por oferecer vários cenários de implementação e ter uma sintaxe e aprendizado mais amigável, gosto de utilizá-la no back-end também.",
         svg:{
-            src: "../../src/assets/svg/javascript.svg",
+            src: "/svg/javascript.svg",
             alt: "javaScrepit"
         }
     },
@@ -21,7 +21,7 @@ export const Skills = [
         de compreender o que ele está representando.
         `,
         svg: {
-            src: "../../src/assets/svg/html.svg",
+            src: "svg/html.svg",
             alt: "html 5"
         }
     },
@@ -35,7 +35,7 @@ export const Skills = [
             usuário, sem deixar de utilizar a responsividade de paginas.
         `,
         svg: {
-            src: "../../src/assets/svg/css.svg",
+            src: "/svg/css.svg",
             alt: "css"
         }
     },
@@ -47,7 +47,7 @@ export const Skills = [
         construção de um back-end capaz de fazer todo o processamento de dados 
         necessário para manter a aplicação em perfeito funcionamento.`,
         svg:{
-            src: "../../src/assets/svg/nodejs.svg",
+            src: "/svg/nodejs.svg",
             alt: "node"
         } 
     },
@@ -60,7 +60,7 @@ export const Skills = [
         de código é  uma ótima forma de tornar a aplicação performática e ter ganho de 
         tempo durante o trabalho. `,
         svg:{
-            src: "../../src/assets/svg/react.svg",
+            src: "/svg/react.svg",
             alt: "react"
         }
     },
@@ -74,7 +74,7 @@ export const Skills = [
         vez que eu chamar um componente, ele virá pronto.
         `,
         svg: {
-            src: "../../src/assets/svg/styledComponent.svg",
+            src: "/svg/styledComponent.svg",
             alt: "styled Component"
         }
     },
@@ -88,7 +88,7 @@ export const Skills = [
         a construção de um back-end capaz de manipular dados.
         `,
         svg:{
-            src: "../../src/assets/svg/mysql.svg",
+            src: "/svg/mysql.svg",
             alt: "mysql"
         }
     },
@@ -101,7 +101,7 @@ export const Skills = [
             faço uso básico do terminal com capacidade de fazer manipulação de arquivos.
         `,
         svg: {
-            src: "../../src/assets/svg/linux.svg",
+            src: "/svg/linux.svg",
             alt: "linux"
         }
     },
@@ -114,7 +114,7 @@ export const Skills = [
         projeto e quais as habilidades necessárias para utilizá-lo dentro de uma empresa.
         `,
         svg: {
-            src: "../../src/assets/svg/git.svg",
+            src: "/svg/git.svg",
             alt: "git"
         }
     }

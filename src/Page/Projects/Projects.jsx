@@ -1,7 +1,7 @@
 export const Projects = [
     {
         id: 1,
-        img:"../../src/assets/img/site/rifaOnline.png",
+        img:"/img/site/rifaOnline.png",
         alt: "Rifa online teste 1",
         name: "Rifa online",
         desc: `
@@ -13,27 +13,27 @@ export const Projects = [
         tecns: [
             {
                 id: 1,
-                svg: "../../src/assets/svg/javascript.svg",
+                svg: "/svg/javascript.svg",
                 alt: "javaScript"
             },
             {
                 id: 2,
-                svg: "../../src/assets/svg/react.svg",
+                svg: "/svg/react.svg",
                 alt: "react"
             },
             {
                 id: 3,
-                svg: "../../src/assets/svg/css.svg",
+                svg: "/svg/css.svg",
                 alt: "css"
             },
             {
                 id: 4,
-                svg: "../../src/assets/svg/html.svg",
+                svg: "/svg/html.svg",
                 alt: "html"
             },
             {
                 id: 5,
-                svg: "../../src/assets/svg/styledComponent.svg",
+                svg: "/svg/styledComponent.svg",
                 alt: "mysql"
             }
 
