@@ -12,7 +12,7 @@ export function About(){
                 <h1>Hello world !</h1>
                 <p>
                     Meu nome é Eduardo, desenvolvedor Full Stack que aprecia as 
-                    tecnologias webs e costumo utilizar <span>JavaScript</span>, <span>HTML</span>, 
+                    tecnologias webs, e costumo utilizar <span>JavaScript</span>, <span>HTML</span>, 
                     <span> CSS</span> e <span>React</span> para dar vida a minha imaginação.
                 </p>
             </Description>
