@@ -1,33 +1,11 @@
 import styled from "styled-components";
 
 
-export const Container = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #202020;
-`;
-
-export const Menu = styled.nav`
+export const Container = styled.nav`
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 1.4em;
-
-    img{
-        display: none;
-    }
-
-    @media (max-width: 900px) {
-
-        img{
-            display: block;
-            width: 50;
-            height: 50;
-        }
-    }
 `;
 
 export const Options = styled.a<{marked: boolean}>`
@@ -54,9 +32,5 @@ export const Options = styled.a<{marked: boolean}>`
             background-color: #41A66C;
             width: 100%;
         }
-    }
-
-    @media (max-width: 900px) {
-        display: none;
     }
 `;
