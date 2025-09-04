@@ -6,7 +6,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 6.25em 1.8em;
+    margin: 6.25em 0;
 
     @media (max-width: 900px) {
         flex-direction: column;

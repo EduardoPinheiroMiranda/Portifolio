@@ -3,8 +3,8 @@ import { useState } from "react";
 import Image from "next/image";
 
 // icons
-import MenuIcon from "../../../../public/menu.svg";
-import Close from "../../../../public/close.svg";
+import MenuIcon from "../../../../public/assets/svgs/menu.svg";
+import Close from "../../../../public/assets/svgs/close.svg";
 
 
 type VerticalMenu = {

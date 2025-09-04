@@ -1,10 +1,9 @@
-import Image from "next/image";
 import { Button, Contact, Container, Description, Icon, ImagePerfil, Informations } from "./styles";
 
 // assets
-import Github from "../../../public/github.svg";
-import Linkedin from "../../../public/linkedin.svg";
-import Perfil from "../../../public/perfil.png";
+import Github from "../../../public/assets/svgs/github.svg";
+import Linkedin from "../../../public/assets/svgs/linkedin.svg";
+import Perfil from "../../../public/assets/images/perfil.png";
 
 
 export function Main(){

@@ -1,12 +1,12 @@
+import { useState } from "react";
 import { Container, Menu } from "./styles";
+import { MenuOptions } from "./menuOptions";
 import Image from "next/image";
-import Logo from "../../../public/Logo.png";
+import Logo from "../../../public/assets/images/Logo.png";
 
 // components
 import { HorizontalMenu } from "./HorizontalMenu";
 import { VerticalMenu } from "./VerticalMenu";
-import { useState } from "react";
-import { MenuOptions } from "./menuOptions";
 
 
 export function Header(){
