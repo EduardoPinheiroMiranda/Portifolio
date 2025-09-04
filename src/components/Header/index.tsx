@@ -37,7 +37,7 @@ export function Header(){
 	
 	return(
 		<Container>
-			<Image src={Logo} alt="logo-eduardo" priority={true} />
+			<Image src={Logo} alt="logo-eduardo" priority={true} width={123} height={30}/>
 
 			<Menu>
 				<HorizontalMenu data={menuOptions} markedOption={markedOption}/>
