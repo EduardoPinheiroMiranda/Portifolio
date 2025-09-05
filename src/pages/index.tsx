@@ -3,6 +3,7 @@ import styles from "../styles/home.module.css";
 
 // components
 import { Main } from "@/components/Main";
+import { Skills } from "@/components/Skills";
 
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
 		<main className={styles.container}>
 			<Main/>
 			<Services/>
+			<Skills/>
 		</main>
 	);
 }
