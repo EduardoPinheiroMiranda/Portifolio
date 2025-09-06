@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { servicesOffered } from "./servicesOffered";
+import { data } from "../../../portfolioData";
 import { Container, ListServices, Service, ServicesOffered, Titles } from "./styles";
 
 
@@ -13,7 +13,7 @@ export function Services(){
 			
 			<ServicesOffered>
 				{
-					servicesOffered.map((services) => {
+					data.servicesOffered.map((services) => {
 						return(
 							<ListServices key={String(services)}>
 								{

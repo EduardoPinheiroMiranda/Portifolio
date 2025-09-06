@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Container, Menu } from "./styles";
-import { MenuOptions } from "./menuOptions";
+import { data } from "../../../portfolioData";
 import Image from "next/image";
 import Logo from "../../../public/assets/images/Logo.png";
 
@@ -11,7 +11,7 @@ import { VerticalMenu } from "./VerticalMenu";
 
 export function Header(){
 
-	const [menuOptions, setMenuOptions] = useState(MenuOptions);
+	const [menuOptions, setMenuOptions] = useState(data.MenuOptions);
 
 
 	function markedOption(index: number){

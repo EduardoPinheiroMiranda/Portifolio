@@ -23,7 +23,7 @@ export const Titles = styled.div`
         font-size: 2em;
         font-weight: 500;
 
-        @media(max-width: 350px){
+        @media(max-width: 380px){
             font-size: 1.5em;
         }
     }
@@ -31,30 +31,30 @@ export const Titles = styled.div`
 
 export const ScrollView = styled.div`
     display: flex;
-    flex-direction: column;
-`;
-
-export const ListIcon = styled.div`
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 3em;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 4em;
 
-    div{
-        background-color: #202020;
-        width: 6.25em;
+    .swiper{
+        width: 100%;
         height: 6.25em;
-        border-radius: 0.6em;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        .icon{
+            background-color: #202020;
+            border-radius: 0.6em;
 
-        img{
-            background: transparent;
-            width: 70px;
-            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                background: transparent;
+                width: 70px;
+                height: 70px;
+            }
         }
     }
+
+
 `;

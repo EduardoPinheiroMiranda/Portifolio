@@ -25,7 +25,7 @@ export const Titles = styled.div`
         font-size: 2em;
         font-weight: 500;
 
-        @media(max-width: 350px){
+        @media(max-width: 380px){
             font-size: 1.5em;
         }
     }
