@@ -5,6 +5,7 @@ import styles from "../styles/home.module.css";
 import { Main } from "@/components/Main";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
+import { About } from "@/components/About";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
 			<Services/>
 			<Skills/>
 			<Projects/>
+			<About/>
 		</main>
 	);
 }

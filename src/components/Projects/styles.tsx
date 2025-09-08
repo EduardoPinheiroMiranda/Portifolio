@@ -7,9 +7,7 @@ export const Container = styled.div`
     gap: 6.25em;
 `;
 
-export const Section = styled.section`
-    
-`;
+export const Section = styled.section``;
 
 export const Titles = styled.div`
 
