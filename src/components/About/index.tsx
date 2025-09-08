@@ -14,7 +14,7 @@ export function About(){
 			<Description>
 				<div>
 					<p>
-                        Olá! Meu nome é <span>Eduardo Pinheiro Miranda</span>, tenho 24 anos e sou 
+                        Olá! Meu nome é <span>Eduardo Pinheiro Miranda</span>, sou 
                         desenvolvedor Full Stack, com uma forte afinidade pelo back-end. 
                         Ao longo da minha jornada, também desenvolvi habilidades no front-end e 
                         uma boa noção de design, o que me permite atuar com versatilidade em 

@@ -47,7 +47,7 @@ export const Description = styled.div`
 
 export const Contact = styled.div`
     margin-top: 5em;
-    max-width: 27em;
+    max-width: 30em;
     
     display: flex;
     justify-content: space-between;
@@ -57,14 +57,26 @@ export const Contact = styled.div`
     div{
         display: flex;
         flex-direction: row;
-        gap: 1.25em;
+        gap: 2em;
     }
 
 
     @media(max-width: 500px) {
+
+        display: flex;
+        flex-direction: column;
         align-items: center;
+        gap: 2em;
+
+        div{
+            width: 100%;
+            justify-content: center;
+            gap: 4em;
+        }
+
         button{
-            width: 10em;
+
+            width: 20em;
             height: 4em;
         }
     }
@@ -92,6 +104,10 @@ export const Button = styled.button`
     &:hover{
         background-color: #1c9450
     }
+
+    /* @media(max-width: 500px) {
+        width: 100vw;
+    } */
 `;
 
 export const ImagePerfil = styled(Image)`

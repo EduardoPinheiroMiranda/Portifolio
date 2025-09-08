@@ -33,7 +33,7 @@ export const data = {
 		{ id: "contatos", name: "Contatos", marked: false },
 	],
 	technologies: [
-	// line 1
+		// line 1
 		[
 			{ id: "icon-1", alt: "icon-node", icon: Node},
 			{ id: "icon-2", alt: "icon-react", icon: React},
@@ -48,7 +48,7 @@ export const data = {
 		// line 2
 		[
 			{ id: "icon-10", alt: "icon-html", icon: HTML},
-			{ id: "icon-11", alt: "icon-wordpress", icon: Wordpress_2},
+			{ id: "icon-11", alt: "icon-wordpress", icon: Wordpress_1},
 			{ id: "icon-12", alt: "icon-figma", icon: Figma},
 			{ id: "icon-13", alt: "icon-gimp", icon: Gimp},
 			{ id: "icon-14", alt: "icon-linux", icon: Linux},
@@ -90,7 +90,7 @@ export const data = {
 				description: "Transformo ideias em protótipos funcionais e visualmente alinhados, facilitando a validação de projetos antes do desenvolvimento."
 			},
 			{
-				icon: Wordpress_1,
+				icon: Wordpress_2,
 				alt: "icon-wordpress",
 				title: "Crianção de sites com Wordpress",
 				description: "Desenvolvimento de sites dinâmicos e personalizados com foco em performance, SEO e facilidade de gerenciamento."

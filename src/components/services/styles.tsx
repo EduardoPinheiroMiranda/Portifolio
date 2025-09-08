@@ -7,7 +7,6 @@ export const Container = styled.section`
     gap: 3em;
 `;
 
-
 export const Titles = styled.div`
 
     display: flex;
@@ -81,5 +80,10 @@ export const Service = styled.div`
     p{
         color: #FFFFFF;
         font-size: 1em;
+    }
+
+    img{
+        width: 30px;
+        height: 30px;
     }
 `;

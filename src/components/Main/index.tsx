@@ -4,7 +4,7 @@ import { Button, Contact, Container, Description, Icon, ImagePerfil, Information
 import Github from "../../../public/assets/svgs/github.svg";
 import Linkedin from "../../../public/assets/svgs/linkedin.svg";
 import Perfil from "../../../public/assets/images/perfil.png";
-
+import Whatsapp from "../../../public/assets/svgs/whatsapp.svg";
 
 export function Main(){
 	return(
@@ -35,6 +35,9 @@ export function Main(){
 						</a>
 						<a href="https://github.com/EduardoPinheiroMiranda" target="_blank">
 							<Icon src={Github} alt="github" priority={true}/>
+						</a>
+						<a href="https://wa.me/5533984294511" target="_blank">
+							<Icon src={Whatsapp} alt="Whatsapp-Eduardo-Pinheiro-Miranda"/>
 						</a>
 					</div>
 					
