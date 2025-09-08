@@ -40,13 +40,8 @@ export const Description = styled.div`
     }
 
     @media(max-width: 500px) {
-        h1{
-            font-size: 2em;
-        }
-        p{
-            font-size: 1em;
-            text-align: justify;
-        }
+        h1{ font-size: 2em; }
+        p{ font-size: 1em; }
     }
 `;
 

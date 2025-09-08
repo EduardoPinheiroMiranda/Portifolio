@@ -29,7 +29,7 @@ export const Titles = styled.div`
     }
 `;
 
-export const ScrollView = styled.div`
+export const Slider = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-around;

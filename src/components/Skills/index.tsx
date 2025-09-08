@@ -1,8 +1,6 @@
 import Image from "next/image";
-import { Container, ScrollView, Titles } from "./styles";
+import { Container, Slider, Titles } from "./styles";
 import { data } from "../../../portfolioData";
-
-// swiper
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { useEffect, useState } from "react";
@@ -33,6 +31,10 @@ export function Skills(){
 
 		window.addEventListener("resize", handlerResize);
 		
+
+		return () => {
+			window.removeEventListener("resize", handlerResize);
+		};
 	}, []);
 
 
@@ -43,7 +45,7 @@ export function Skills(){
 				<h2>Principais ferramentas que utilizo</h2>
 			</Titles>
 
-			<ScrollView>
+			<Slider>
 				{data.technologies.map((line, index) => {
 					return(
 						<Swiper
@@ -71,7 +73,7 @@ export function Skills(){
 					);
 				})}
 				
-			</ScrollView>
+			</Slider>
 		</Container>
 	);
 }
