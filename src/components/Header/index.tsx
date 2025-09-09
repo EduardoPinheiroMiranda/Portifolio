@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Container, Menu } from "./styles";
 import { data } from "../../../portfolioData";
 import Image from "next/image";
-import Logo from "../../../public/assets/images/Logo.png";
+import Logo from "../../../public/assets/svgs/Logo.svg";
 
 // components
 import { HorizontalMenu } from "./HorizontalMenu";

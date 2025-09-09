@@ -66,16 +66,15 @@ export const Contact = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 2em;
+        gap: 3em;
 
         div{
             width: 100%;
             justify-content: center;
-            gap: 4em;
+            gap: 3em;
         }
 
         button{
-
             width: 20em;
             height: 4em;
         }
@@ -104,10 +103,6 @@ export const Button = styled.button`
     &:hover{
         background-color: #1c9450
     }
-
-    /* @media(max-width: 500px) {
-        width: 100vw;
-    } */
 `;
 
 export const ImagePerfil = styled(Image)`
@@ -140,9 +135,4 @@ export const ImagePerfil = styled(Image)`
 export const Icon = styled(Image)`
     width: 50px;
     height: 50px;
-    
-    @media (max-width: 450px) {
-        width: 40px;
-        height: 40px;
-    }
 `;
